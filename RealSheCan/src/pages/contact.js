@@ -26,7 +26,7 @@ export default function Contact() {
                         Let's get in touch! We will reach out to you as soon as possible.
                     </p>
                 </div>
-                <form action="https://formsubmit.co/bandiavi000@isd284.com" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20"  >
+                <form action="https://formsubmit.co/shecanmn@gmail.com" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20"  >
                     <input type="hidden" name="_subject" value="Message from the contage form on website!" />
                     <input type="hidden" name="_captcha" value="false" />
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">

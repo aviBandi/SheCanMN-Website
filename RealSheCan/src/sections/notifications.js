@@ -10,7 +10,7 @@ const Notifications = () => {
                     </h1>
                 </div>
                 <div>
-                    <form className="mt-6 flex flex-col sm:flex-row max-w-md gap-x-4" method="POST" action="https://formsubmit.co/bandiavi000@isd284.com">
+                    <form className="mt-6 flex flex-col sm:flex-row max-w-md gap-x-4" method="POST" action="https://formsubmit.co/shecanmn@gmail.com">
                         <input type="hidden" name="_subject" value="Someone wants to join the mailing list!" />
                         <input type="hidden" name="_captcha" value="false" />
                         <label htmlFor="email-address" className="sr-only">

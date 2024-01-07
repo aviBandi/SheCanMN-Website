@@ -39,7 +39,7 @@ const posts = [
     href: '#',
     description:
       'Join us for a hands on course on the fundamentals of web design. Get taught by a professional website developer and by the end of the course you will be able to take home your own portfolio project.',
-    date: 'Mar 16, 2024',
+    date: 'Mar 16, 2025',
     datetime: '2020-03-16',
     category: { title: 'Design and Markup', href: '#' },
     author: {
@@ -69,13 +69,17 @@ export default function Events() {
                   <time dateTime={post.datetime} className="text-gray-500">
                     {post.date}
                   </time>
+
                   <h1 className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600">
                     {post.category.title}
                   </h1>
                 </div>
                 <div className="group relative">
-                  <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                    <a href={post.href} className="text-purple-700">
+                  <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 hover:underline">
+                    
+
+                      {/* CHANGE HREF HERE */}
+                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdTsgKc-68naccAZ1GBGYKimHi4PKW_csRTXUZN97eH3RGwEA/viewform" className="text-purple-700">
                       <span className="absolute inset-0" />
                       {post.title}
                     </a>
